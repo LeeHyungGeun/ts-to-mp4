@@ -1,4 +1,3 @@
-import ffmpeg from 'ffmpeg';
 import child_process from 'child_process';
 const execSync = child_process.execSync;
 import {
