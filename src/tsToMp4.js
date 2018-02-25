@@ -19,7 +19,7 @@ function args() {
     }
     let input_path = argv._[0];  // input file path
     let output_path = argv.output || input_path.replace(/(?:\/)(.)+\.ts/i, '$1.mp4');   // output file path
-    input_path = path.resolve(__dirname, '../', input_path);
+    input_path = path.resolve(input_path);
     return {
         input_path,
         output_path
