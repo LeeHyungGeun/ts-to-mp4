@@ -1,6 +1,6 @@
 {
   "name": "ts-to-mp4",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./src/tsToMp4.js",
   "license": "MIT",
   "scripts": {
