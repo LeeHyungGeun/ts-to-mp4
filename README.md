@@ -4,7 +4,7 @@ The library helps to convert `.ts` to `.mp4`.
 ## Install
 _yarn_
 ``` bash
-yarn global add ts-to-mp4
+> yarn global add ts-to-mp4
 ```
 
 _npm_
@@ -24,4 +24,4 @@ _npm_
 ---
 
 ## Dependencies
-- __ffmpeg__
+- [__ffmpeg__](https://www.ffmpeg.org/)
