@@ -1,0 +1,23 @@
+{
+  "name": "ts-to-mp4",
+  "version": "1.0.0",
+  "main": "./src/tsToMp4.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel ./src/tsToMp4.js --out-file ./dist/tsToMp4.js --presets=es2015",
+    "start": "babel-node ./src/tsToMp4.js"
+  },
+  "keywords": [
+    "tsToMp4", "ts", "mp4", "convert"
+  ],
+  "author": "leehyunggeun",
+  "bin": {
+    "tsToMp4": "bin/tsToMp4.js"
+  },
+  "dependencies": {
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
