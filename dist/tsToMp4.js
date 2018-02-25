@@ -29,7 +29,6 @@ function args() {
     }
     var input_path = _yargs.argv._[0]; // input file path
     var output_path = _yargs.argv.output || input_path.replace(/(?:\/)(.)+\.ts/i, '$1.mp4'); // output file path
-    input_path = _path2.default.resolve(__dirname, '../', input_path);
     return {
         input_path: input_path,
         output_path: output_path
